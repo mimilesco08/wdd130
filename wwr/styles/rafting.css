@@ -1,73 +1,78 @@
-:root {
-    --primary-color: #0077b6;
-    --secondary-color: #00b4d8;
-    --accent1-color: #03045e;
-    --accent2-color: #caf0f8;
-    --heading-font: 'Merriweather', serif;
-    --paragraph-font: 'Roboto', sans-serif;
-}
-
+/* Global styles */
 body {
-    font-family: var(--paragraph-font);
-    color: var(--secondary-color);
-    max-width: 1200px;
-    margin: 0 auto;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-h1 {
-    background-color: white;
-    padding: 2px;
-    border: 1px solid #ccc;
-  }
-
-h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-
+/* Header styles */
+header {
+    background: #f4f4f4;
+    padding: 10px;
 }
 
-a {
-    color: var(--accent1-color);
+.header-grid {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 15px;
 }
 
-footer a img{
-    text-decoration: none;
+header img {
+    max-height: 50px;
 }
 
-.hero {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.hero img {
-    width: 100%;
-    display: block;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    color: white;
-}
-
-.hero article img {
-    float: right;
-    width: 150px;
-    margin-left: 20px;
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
 }
 
 nav a {
-    display: inline-block;
-    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* History Section */
+#history {
+    padding: 20px;
+}
+
+/* Adventure Section */
+#adventures {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+figure {
+    text-align: center;
+    margin: 10px;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social img {
+    max-height: 25px;
+    margin-left: 10px;
 }
