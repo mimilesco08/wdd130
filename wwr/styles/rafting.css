@@ -79,17 +79,17 @@ footer .social img {
 
 .map-container {
     width: 100%;
-    height: 300px;
-    margin-bottom: 20px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden;
+    height: 300px; /* Or any fixed height you prefer */
+    margin-bottom: 20px; /* Add some space below the map */
+    border: 2px solid #ccc;  /* Added a border */
+    border-radius: 10px; /* Added rounded corners */
+    overflow: hidden;      /* clip the iframe content */
 }
 
 .map-container iframe {
     width: 100%;
     height: 100%;
-    border: none;
+    border: none; 
 }
 
 .contact-grid {
