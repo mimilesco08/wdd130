@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Emilio Escobar">
-    <title>Contact Us | White Water Rafting</title>
-    <meta name="description" content="Get in touch with us for an unforgettable white water rafting experience. Contact us for questions, reservations, or feedback.">
+    <title>Contact Us | White Water Rafting Adventures</title>
+    <meta name="description" content="Contact White Water Rafting Adventures to plan your unforgettable adventure.  We're here to answer your questions and help with reservations.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wdth,wght@0,75..100,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
-    <link rel="stylesheet" href="styles/contact.css"> </head>
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
 <body>
     <header>
         <div class="header-grid">
@@ -37,8 +38,9 @@
                     <p>Anytown, USA 12345</p>
                     <p>Phone: (555) 123-4567</p>
                     <p>Email: info@wwrafting.com</p>
-                    <div style="width: 100%; height: 300px;">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30928.724494373244!2d121.03063200000001!3d14.3061706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1743871450212!5m2!1sen!2sph" width="400" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </div>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30928.724494373244!2d121.03063200000001!3d14.3061706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1743871450212!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
                 <div class="contact-form">
                     <form method="post" action="#">
@@ -48,9 +50,15 @@
                         <input type="email" id="email" name="email" required>
                         <label>Purpose of Message:</label>
                         <div class="radio-group">
-                            <label><input type="radio" name="purpose" value="general">General Inquiry</label>
-                            <label><input type="radio" name="purpose" value="reservation">Reservation</label>
-                            <label><input type="radio" name="purpose" value="website">Website Suggestion</label>
+                            <label for="general">General Inquiry
+                                <input type="radio" id="general" name="purpose" value="general">
+                            </label>
+                            <label for="reservation">Reservation
+                                <input type="radio" id="reservation" name="purpose" value="reservation">
+                            </label>
+                            <label for="website">Website Suggestion
+                                <input type="radio" id="website" name="purpose" value="website">
+                            </label>
                         </div>
                         <label for="message">Message:</label>
                         <textarea id="message" name="message" required></textarea>
@@ -65,15 +73,18 @@
             <div class="employee-profiles">
                 <div class="employee-profile">
                     <img src="images/employee1.jpg" alt="Employee 1">
-                    <figcaption>John Smith, Guide</figcaption>
+                    <div class="employee-name">John Smith</div>
+                    <div class="employee-title">Guide</div>
                 </div>
                 <div class="employee-profile">
                     <img src="images/employee2.jpg" alt="Employee 2">
-                    <figcaption>Jane Doe, Manager</figcaption>
+                    <div class="employee-name">Jane Doe</div>
+                    <div class="employee-title">Manager</div>
                 </div>
                 <div class="employee-profile">
                     <img src="images/employee3.jpg" alt="Employee 3">
-                    <figcaption>Mike Johnson, Instructor</figcaption>
+                    <div class="employee-name">Mike Johnson</div>
+                    <div class="employee-title">Instructor</div>
                 </div>
             </div>
         </section>
