@@ -1,4 +1,4 @@
-/* Global styles */
+
 body {
     font-family: 'Open Sans', 'Roboto', sans-serif;
     margin: 0;
@@ -78,12 +78,12 @@ footer .social img {
 }
 
 .map-container {
-    width: 100%;
-    height: 300px; /* Or any fixed height you prefer */
-    margin-bottom: 20px; /* Add some space below the map */
-    border: 2px solid #ccc;  /* Added a border */
-    border-radius: 10px; /* Added rounded corners */
-    overflow: hidden;      /* clip the iframe content */
+    width: 80%;
+    height: 100px; 
+    margin-bottom: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    overflow: hidden;    
 }
 
 .map-container iframe {
