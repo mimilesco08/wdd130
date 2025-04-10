@@ -1,0 +1,124 @@
+
+body {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 15px;
+}
+
+header img {
+    max-height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* History Section */
+#history {
+    padding: 20px;
+}
+
+/* Adventure Section */
+#adventures {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+figure {
+    text-align: center;
+    margin: 10px;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social img {
+    max-height: 25px;
+    margin-left: 10px;
+}
+
+.map-container {
+    width: 80%;
+    height: 100px; 
+    margin-bottom: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    overflow: hidden;    
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none; 
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.employee-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.employee-profile {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.employee-profile img {
+    width: 200px;
+    height: 200px;
+}
