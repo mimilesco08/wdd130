@@ -43,7 +43,7 @@ nav a {
 
 /* Footer styles */
 footer {
-    background: #c2c2c2;
+    background: #333333;
     color: white;
     padding: 10px 30px;
 }
@@ -52,6 +52,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer-grid a {
+    
+    
 }
 
 footer .social img {
@@ -154,7 +159,7 @@ footer .social img {
 .newsletter {
     padding: 40px 20px;
     text-align: center;
-    background-color: #CBDCEB;
+    background-color: #ffffff;
 }
 
 .newsletter h2 {
@@ -231,7 +236,7 @@ footer .social img {
 .trip-table-section {
     text-align: center;
     padding: 10px 600px;
-    background-color: #CBDCEB;
+    background-color: #ffffff;
 }
 
 
