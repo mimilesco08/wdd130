@@ -180,8 +180,8 @@ footer .social img {
 
 .newsletter button[type="submit"] {
     padding: 12px 25px;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: white;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     font-size: 1.1em;
@@ -190,7 +190,7 @@ footer .social img {
 }
 
 .newsletter button[type="submit"]:hover {
-    background-color: var(--primary-darker-color);
+    background-color: white;
 }
 
 /* Home Page Grid Layout */
@@ -235,7 +235,7 @@ footer .social img {
 .trips-page .contact-button {
     display: inline-block;
     padding: 15px 30px;
-    background-color: var(--accent1-color);
+    background-color: white;
     color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 5px;
@@ -244,7 +244,7 @@ footer .social img {
 }
 
 .trips-page .contact-button:hover {
-    background-color: var(--accent1-darker-color);
+    background-color: white;
 }
 
 .trips-page .trip-details {
@@ -270,7 +270,7 @@ footer .social img {
 }
 
 .trips-page .trip-details .trip-card h3 {
-    color: var(--accent2-color);
+    color: white;
     margin-bottom: 5px;
 }
 
@@ -290,7 +290,7 @@ footer .social img {
 .trips-page .trip-details .trip-card .book-now {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--primary-color);
+    background-color: white;
     color: rgb(6, 6, 6);
     text-decoration: none;
     border-radius: 5px;
@@ -299,7 +299,7 @@ footer .social img {
 }
 
 .trips-page .trip-details .trip-card .book-now:hover {
-    background-color: var(--primary-darker-color);
+    background-color: white;
 }
 
 .trips-page .trip-table-section {
