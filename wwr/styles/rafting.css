@@ -208,6 +208,9 @@ footer .social img {
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
+    background-color: #f0f0f0;
+    padding: 30px 30px 150px;
+    margin: 1px;
 }
 
 @media (min-width: 768px) {
@@ -342,6 +345,7 @@ footer .social img {
 .trips-page .trip-table tbody td a:hover {
     text-decoration: underline;
 }
+
 
 @media (min-width: 768px) {
     .trips-page .trip-details {
