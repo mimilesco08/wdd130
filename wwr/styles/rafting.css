@@ -138,8 +138,8 @@ footer .social img {
 .call-to-action {
     display: inline-block;
     padding: 15px 30px;
-    background-color: gray;
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -147,7 +147,7 @@ footer .social img {
 }
 
 .call-to-action:hover {
-    background-color: var(--accent1-darker-color);
+    background-color: white;
 }
 
 /* Newsletter Signup Form */
@@ -377,5 +377,17 @@ footer .social img {
     float: right;
     width: 125px;
     padding: 10px;
+    margin-top: 50px 50px;
 }
-    
+.hero-content-new article p {
+    color: black;
+    margin: 50px 50px 50px 50px;
+
+}
+
+#adventures h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
