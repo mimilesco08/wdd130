@@ -181,16 +181,17 @@ footer .social img {
 .newsletter button[type="submit"] {
     padding: 12px 25px;
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     font-size: 1.1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 10px;
 }
 
 .newsletter button[type="submit"]:hover {
-    background-color: var(--primary-darker-color);
+    background-color: gray;
 }
 
 /* Home Page Grid Layout */
