@@ -360,7 +360,7 @@ footer .social img {
     height: auto;
 }
 
-.hero-content-new h2 {
+.hero-content-new h3 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -377,7 +377,6 @@ footer .social img {
     float: right;
     width: 125px;
     padding: 10px;
-    margin-top: 50px 50px;
 }
 .hero-content-new article p {
     color: black;
@@ -385,7 +384,7 @@ footer .social img {
 
 }
 
-#adventures h2{
+#adventures h4{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
